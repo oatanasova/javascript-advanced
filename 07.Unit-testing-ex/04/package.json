@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "chai": "^6.3.0",
+    "mocha": "^12.0.3"
+  },
+  "name": "04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "03.test.js",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

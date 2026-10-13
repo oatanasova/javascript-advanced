@@ -1,0 +1,15 @@
+[
+    {
+        "img":"https://ikeabulgaria.akamaized.net/images/510x510/1/variantimages/20545180/0.JPG",
+        "name": "Sofa",
+        "price": "259",
+        "decFactor":"0.4"
+
+    },
+    {
+        "img":"https://ikeabulgaria.akamaized.net/images/510x510/3/variantimages/60375133/0.jpg",
+        "name": "Wardrobe",
+        "price": "120",
+        "decFactor":"1.2"
+    }
+]

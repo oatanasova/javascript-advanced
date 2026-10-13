@@ -1,0 +1,22 @@
+{
+  "name": "07.unit-testing-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01.sub-sum.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "chai": "^6.3.0"
+  },
+  "dependencies": {
+    "mocha": "^12.0.3"
+  }
+}
