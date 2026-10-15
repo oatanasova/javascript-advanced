@@ -1,4 +1,4 @@
-function solve(){
+function solve() {
 
 }
 
@@ -7,7 +7,7 @@ solve();
 
 /////
 
-function solve(){
+function solve() {
 
 }
 
@@ -18,9 +18,12 @@ console.log(solve());
 
 module.exports = X;
 const { expect } = require('chai');
-const  X = require('../04.sum-of-nums');
+const X = require('../04.sum-of-nums');
 
 //   "scripts": {
 //     "test": "mocha *.test.js"
 //   },
 // npm pkg set scripts.test="mocha *.test.js"
+
+// npm init -y && npm pkg set scripts.test="mocha *.test.js" && npm i mocha chai --save-dev
+// npm init -y; npm pkg set 'scripts.test=mocha *.test.js'; npm i mocha chai --save-dev
