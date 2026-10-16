@@ -21,19 +21,7 @@ function solve() {
         if (firstnameRef.value === '' ||
             lastnameRef.value === '' ||
             fromdateRef.value === '' ||
-            todateRef.value === ''
-            // || new Date(fromdateRef.value) >= new Date(todateRef.value)
-        ) { return; }
-
-        const [fromDay, fromMonth, fromYear] = fromdateRef.value.split('-');
-        const [toDay, toMonth, toYear] = todateRef.value.split('-');
-
-        const fromDate = new Date(fromYear, fromMonth - 1, fromDay);
-        const toDate = new Date(toYear, toMonth - 1, toDay);
-
-        if (fromDate >= toDate) return;
-
-        // Getting the information from the form
+            todateRef.value === '' || new Date(fromdateRef.value) >= new Date(todateRef.value)) { return; }
 
         let liVacation = document.createElement('li');
         liVacation.className = 'vacation-content';
